@@ -1,7 +1,11 @@
  
+    
     body{
         background-color: #292525;
         margin: 0%;
+       
+ 
+        
         }
     
 
@@ -48,4 +52,14 @@
         margin: 10px 15px;
     }
 
+   
+    #maindiv1{
+        z-index:1; 
+        overflow: hidden;
+        position: sticky;
+        right: 0;
+        left: 0;
+        top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+    }
    
