@@ -34,6 +34,7 @@ const form = document.querySelector('#searchForm');
 
 
 form.addEventListener('submit', async function (e) {
+    try{
     e.preventDefault();
 
     const searchTerm = form.elements.query.value;
@@ -43,6 +44,12 @@ form.addEventListener('submit', async function (e) {
 
 
     form.elements.query.value = '';
+    }
+    catch(e)
+    {
+        console.log(e)
+    }
+    
 
 })
 
